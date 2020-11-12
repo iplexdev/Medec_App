@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
+// import 'package:hexcolor/hexcolor.dart';
 class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: HexColor('#6E78F7'),
+        color: Colors.blue,
         child:Center(
           child:Column(
             mainAxisAlignment: MainAxisAlignment.center,
